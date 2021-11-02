@@ -1,0 +1,49 @@
+h1 {
+  font-family: Georgia, serif;
+  text-align: center;
+  font-style: italic;
+  font-size: 35pt;
+  color: rgb(65, 100, 225);
+}
+hr {
+  border-top: 6px dotted rgb(130, 130, 130);
+  margin-bottom: 40px;
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+  width: 75%;
+}
+
+/* Images */
+img {
+  height: 80px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+/* Table */
+table {
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  margin: 15px;
+  width: 50%;
+}
+th {
+  background-color: rgb(0, 170, 100);
+  padding-bottom: 12px;
+  padding-top: 12px;
+  text-align: left;
+  color: white;
+}
+td, th {
+  border: 1px solid rgb(200, 200, 200);
+  border-collapse: collapse;
+  padding: 10px;
+  text-align: center;
+}
+tr:nth-child(even) {
+  background-color: rgb(245, 245, 245);
+}
+tr:nth-child(odd) {
+  background-color: rgb(230, 230, 230);
+}
